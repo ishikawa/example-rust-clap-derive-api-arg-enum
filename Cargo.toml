@@ -1,5 +1,5 @@
 [package]
-name = "example-rust-clap-compound-arg-enum"
+name = "example-rust-clap-derive-api-arg-enum"
 version = "0.1.0"
 edition = "2021"
 
