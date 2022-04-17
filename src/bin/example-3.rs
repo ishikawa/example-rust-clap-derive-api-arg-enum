@@ -1,3 +1,16 @@
+//! ```ignore
+//! $ cargo run --bin example-3 -- -h
+//!     Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+//!      Running `target/debug/example-3 -h`
+//! example-rust-clap-derive-api-arg-enum
+//!
+//! USAGE:
+//!     example-3 --level <LEVEL>
+//!
+//! OPTIONS:
+//!     -h, --help             Print help information
+//!         --level <LEVEL>    [possible values: debug, info, warning, error, error-panic]
+//! ```
 use clap::Parser;
 
 #[derive(Debug, Clone)]
