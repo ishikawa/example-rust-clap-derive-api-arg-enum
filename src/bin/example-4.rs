@@ -21,7 +21,7 @@ enum Level {
     Error { panic: bool },
 }
 
-const LEVEL_NAME_TO_VALUE_VARIANTS: [(&'static str, Level); 5] = [
+const LEVEL_NAME_TO_VALUE_VARIANTS: [(&str, Level); 5] = [
     ("debug", Level::Debug),
     ("info", Level::Info),
     ("warning", Level::Warning),
